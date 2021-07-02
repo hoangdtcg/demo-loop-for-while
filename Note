@@ -1,0 +1,31 @@
+- Cấu trúc lặp là gì?
+    - Lặp đi lặp lại một vài câu lệnh cho đến khi điều kiện nào đó được thoả mãn.
+- Có mấy dạng lặp?
+    - Biết trước số lượng vòng lặp và không biết trước số lượng vòng lặp ( điều kiện) //
+        - Công nhân làm được 100 sản phẩm thì đi về -> biết trước số lần Lặp
+        - Công nhân làm việc từ 8h00 đến 5h30 thì về -> không thể biết được làm được bao nhiêu sản phẩm
+
+Bài toán: Tìm ra bạn cao nhất lớp?
+Lặp đi lặp lại việc so sánh.
+
+Biến đếm: i;
+
+for - lặp biết trước số vòng Lặp
+while - lặp chưa biết trước số vòng lặp/biết trước
+
+Bài 1 - in ra 10 câu "i love you";
+Bài 2 - in ra số từ 1 - 20;
+Bài 3 - In ra các số chẵn từ 1 - 100;
+Bài 4 - In ra tổng các số chia hết cho 3 từ 1 - 100;
+Bài 5 - Máy tính cho 1 số ngẫu nhiên từ 1 - 100, người chơi đoán
+đến khi nào đúng thì thôi, hiển thị ra số lượt đoán
+
+for(khởi tạo biến đếm, điều kiện chạy, thay đổi biến đếm){
+    // các câu lệnh được lặp
+}
+
+while(điều kiện){
+    // các câu lệnh
+}
+
+vòng lặp lồng nhau

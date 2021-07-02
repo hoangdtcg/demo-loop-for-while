@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    td{
+        width: 60px;
+        height: 60px;
+    }
+</style>
+<body>
+    <table border="1px" id="board">
+        <tr id="row">
+        </tr>
+    </table>
+<script>
+    let row = parseInt(prompt("Nhập số hàng"));
+    let col = parseInt(prompt("Nhập số cột"));
+    let str = "";
+
+    for(let i = 1; i < row;i++){
+        str += "<tr>";
+            for(let j = 2; j < col;j++){
+                str += "<td>"+i+"x"+j+" = "+(i*j) +"</td>";
+            }
+        str += "</tr>";
+    }
+
+    
+
+    document.getElementById('board').innerHTML = str;
+
+</script>
+</body>
+</html>
